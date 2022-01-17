@@ -11,8 +11,8 @@ var cut_tree, tree, bird, bottle, air_ticket
 
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("../assets1/car.png");
-  car2_img = loadImage("../assets1/car-2.png");
+  car1_img = loadImage("../assets/car1.png");
+  car2_img = loadImage("../assets/car2.png");
   track = loadImage("../assets/track.jpg");
   fuelImage = loadImage("./assets/fuel.png");
   powerCoinImage = loadImage("./assets/goldCoin.png");
@@ -21,10 +21,10 @@ function preload() {
   lifeImage = loadImage("./assets/life.png");
   blastImage = loadImage("./assets/blast.png");
   cut_tree = loadImage("./assets1/cut-down-tree.png");
-  tree = loadImage("./assets1/planting-tree.png");
-  bird = loadImage("./assets1/dying-bird.png");
-  bottle = loadImage("./assets1/plastic-bottle.png");
-  air_tickets = loadImage("./assets1/air-ticket.png");
+  tree = loadImage("./assets1/Tree.png");
+  bird = loadImage("./assets1/bird.png");
+  bottle = loadImage("./assets1/Water_bottle.png");
+  air_tickets = loadImage("./assets1/ticket.png");
 }
 
 function setup() {

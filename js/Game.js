@@ -51,18 +51,18 @@ class Game {
     obstacles = new Group();
 
     var obstaclesPositions = [
-      { x: width / 2 + 250, y: height - 800, image: obstacle2Image },
-      { x: width / 2 - 150, y: height - 1300, image: obstacle1Image },
-      { x: width / 2 + 250, y: height - 1800, image: obstacle1Image },
-      { x: width / 2 - 180, y: height - 2300, image: obstacle2Image },
-      { x: width / 2, y: height - 2800, image: obstacle2Image },
-      { x: width / 2 - 180, y: height - 3300, image: obstacle1Image },
-      { x: width / 2 + 180, y: height - 3300, image: obstacle2Image },
-      { x: width / 2 + 250, y: height - 3800, image: obstacle2Image },
-      { x: width / 2 - 150, y: height - 4300, image: obstacle1Image },
-      { x: width / 2 + 250, y: height - 4800, image: obstacle2Image },
-      { x: width / 2, y: height - 5300, image: obstacle1Image },
-      { x: width / 2 - 180, y: height - 5500, image: obstacle2Image }
+      { x: width / 2 + 250, y: height - 800, image: bottle },
+      { x: width / 2 - 150, y: height - 1300, image: air_tickets },
+      { x: width / 2 + 250, y: height - 1800, image:bird },
+      { x: width / 2 - 180, y: height - 2300, image: bottle },
+      { x: width / 2, y: height - 2800, image: air_tickets },
+      { x: width / 2 - 180, y: height - 3300, image: bird },
+      { x: width / 2 + 180, y: height - 3300, image: cut_tree },
+      { x: width / 2 + 250, y: height - 3800, image: cut_tree },
+      { x: width / 2 - 150, y: height - 4300, image: bottle },
+      { x: width / 2 + 250, y: height - 4800, image: air_tickets },
+      { x: width / 2, y: height - 5300, image: bird },
+      { x: width / 2 - 180, y: height - 5500, image: cut_tree }
     ];
 
     // Adding fuel sprite in the game
@@ -76,7 +76,7 @@ class Game {
       obstacles,
       obstaclesPositions.length,
       obstacle1Image,
-      0.04,
+      0.08,
       obstaclesPositions
     );
   }

@@ -19,7 +19,7 @@ function preload() {
   obstacle1Image = loadImage("./assets/obstacle1.png");
   obstacle2Image = loadImage("./assets/obstacle2.png");
   lifeImage = loadImage("./assets/life.png");
-  blastImage = loadImage("./assets/blast.png");
+  blastImage = loadImage("./assets1/blast2.png");
   cut_tree = loadImage("./assets1/cut-down-tree.png");
   tree = loadImage("./assets1/Tree.png");
   bird = loadImage("./assets1/bird.png");

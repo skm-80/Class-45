@@ -154,7 +154,7 @@ class Game {
 
         if (currentlife <= 0) {
           cars[index - 1].changeImage("blast");
-          cars[index - 1].scale = 0.3;
+          cars[index - 1].scale = 0.2;
         }
 
         cars[index - 1].position.x = x;
@@ -387,7 +387,7 @@ class Game {
   showRank() {
     swal({
       title: `Awesome!${"\n"}Rank${"\n"}${player.rank}`,
-      text: "You reached the finish line successfully",
+      text: "Well done you saved the planet",
       imageUrl:
         "https://raw.githubusercontent.com/vishalgaddam873/p5-multiplayer-car-race-game/master/assets/cup.png",
       imageSize: "100x100",
@@ -408,5 +408,15 @@ class Game {
 
   end() {
     console.log("Game Over");
+  }
+  die() {
+    swal({
+      title: `Opps you died`,
+      text: "Better luck next time",
+      imageUrl:
+        "https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Down_Sign_Emoji_Icon_ios10_grande.png",
+      imageSize: "100x100",
+      confirmButtonText: "Thanks For Playing"
+    });
   }
 }
